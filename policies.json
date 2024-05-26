@@ -1,0 +1,53 @@
+{
+    "policies": {
+        "AutofillCreditCardEnabled": false,
+        "AutofillAddressEnabled": false,
+        "DisableFirefoxAccounts": true,
+        "DisableFirefoxStudies": true,
+        "DisableTelemetry": true,
+        "DisablePocket": true,
+        "DisplayBookmarksToolbar": "always",
+        "DNSOverHTTPS": {
+            "Enabled": false
+        },
+        "Homepage": {
+            "URL": "http://192.168.1.251/",
+            "Locked": false,
+            "StartPage": "homepage"
+        },
+        "EnableTrackingProtection": {
+            "Value": true,
+            "Locked": false,
+            "Cryptomining": true,
+            "Fingerprinting": true,
+            "EmailTracking": true,
+            "Exceptions": []
+        },
+        "ExtensionUpdate": true,
+        "NoDefaultBookmarks": true,
+        "OfferToSaveLogins": true,
+        "PasswordManagerEnabled": false,
+        "PromptForDownloadLocation": true,
+        "TranslateEnabled": false,
+        "UseSystemPrintDialog": true,
+        "Extensions": {
+            "Install": [
+                "https://addons.mozilla.org/firefox/downloads/file/4282854",
+                "https://addons.mozilla.org/firefox/downloads/file/4098688",
+                "https://addons.mozilla.org/firefox/downloads/file/4249956",
+                "https://addons.mozilla.org/firefox/downloads/file/3594370",
+                "https://addons.mozilla.org/firefox/downloads/file/4270467",
+                "https://addons.mozilla.org/firefox/downloads/file/4285039",
+                "https://addons.mozilla.org/firefox/downloads/file/4288668",
+                "https://addons.mozilla.org/firefox/downloads/file/4286113",
+                "https://addons.mozilla.org/firefox/downloads/file/3986815",
+                "https://addons.mozilla.org/firefox/downloads/file/4146752",
+                "https://addons.mozilla.org/firefox/downloads/file/4156969",
+                "https://addons.mozilla.org/firefox/downloads/file/3985408",
+                "https://addons.mozilla.org/firefox/downloads/file/4289663",
+                "https://addons.mozilla.org/firefox/downloads/file/4109342",
+                "https://addons.mozilla.org/firefox/downloads/file/3934978"
+            ]
+        }
+    }
+}
