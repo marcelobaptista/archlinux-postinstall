@@ -90,6 +90,7 @@ pacman -Sy --noconfirm \
     qt6-base \
     reflector \
     rsync \
+    safeeyes \
     shell{check,harden} \
     shotwell \
     solaar \
@@ -115,6 +116,7 @@ pacman -Sy --noconfirm \
     wine{tricks,-mono,} \
     xdg-user-dirs-gtk \
     xorg-xhost \
+    xprintidle \
     yay \
     yq \
     zip \
@@ -125,5 +127,5 @@ pacman -Sy --noconfirm \
 
 su - marcelo -c "
 yay -S --noconfirm \
-    camset grub-theme-arch-linux plymouth-theme-arch-logo rar unetbootin"
+    camset etcher-bin grub-theme-arch-linux plymouth-theme-arch-logo rar unetbootin"
     
