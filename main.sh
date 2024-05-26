@@ -7,7 +7,8 @@ EOF
 sed -i 's/#autologin-user=$/autologin-user=marcelo/' /etc/lightdm/lightdm.conf
 groupadd -r autologin && gpasswd -a marcelo autologin
 
-cat <<'EOF' >>/etc/pacman.d/mirrorlist
+cp /etc/pacman.d/mirrorlist{,.bkp} 
+cat <<'EOF' >/etc/pacman.d/mirrorlist
 Server = https://mirror.ufscar.br/archlinux/$repo/os/$arch
 Server = http://archlinux.c3sl.ufpr.br/$repo/os/$arch
 Server = http://mirror.ufam.edu.br/archlinux/$repo/os/$arch
