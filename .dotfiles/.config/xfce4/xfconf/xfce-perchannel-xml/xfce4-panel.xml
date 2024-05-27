@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=7;x=16;y=540"/>
+      <property name="length" type="double" value="34.629629629629626"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="31"/>
+      <property name="mode" type="uint" value="1"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="9"/>
+        <value type="int" value="5"/>
+        <value type="int" value="3"/>
+        <value type="int" value="7"/>
+        <value type="int" value="14"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="enable-struts" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="launcher-show-description" type="bool" value="false"/>
+      <property name="launcher-show-tooltip" type="bool" value="false"/>
+      <property name="hover-switch-category" type="bool" value="true"/>
+      <property name="default-category" type="int" value="2"/>
+      <property name="recent-items-max" type="int" value="0"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="position-search-alternate" type="bool" value="true"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="menu-width" type="int" value="527"/>
+      <property name="menu-height" type="int" value="708"/>
+      <property name="show-command-lockscreen" type="bool" value="false"/>
+      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
+      <property name="show-command-menueditor" type="bool" value="true"/>
+      <property name="show-command-profile" type="bool" value="false"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-mail-reader.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+      </property>
+      <property name="recent" type="array">
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="duplicati.gui.trayicon"/>
+        <value type="string" value="miniaplicativo gerenciador de redes"/>
+        <value type="string" value="psensor"/>
+        <value type="string" value="electron13"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="vmware-tray"/>
+        <value type="string" value="guake"/>
+        <value type="string" value="pamac-tray"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="ArrowDL"/>
+        <value type="string" value="antimicrox"/>
+        <value type="string" value="SimpleScreenRecorder"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="normcap"/>
+        <value type="string" value="MEGAsync"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="ZapZap"/>
+        <value type="string" value="OneDriveGUI"/>
+        <value type="string" value="ClipGrab"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="DownZemAll!"/>
+        <value type="string" value="WhatSie"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="ksnip"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Deezer1"/>
+        <value type="string" value="teams-for-linux1"/>
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="indicator-solaar"/>
+      </property>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="vmware-tray"/>
+        <value type="string" value="guake"/>
+      </property>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="hidden-items" type="array">
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="enable-wnck" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance39034;chromium.instance46575;firefox.instance1090;firefox.instance40730;vlc;WhatSie.instance1077"/>
+      <property name="known-players" type="string" value="audacious;Audacious;Deezer;org.telegram.desktop;Reprodutor de Mídias VLC;tidal-hifi;vlc;WhatSie;YouTube Music"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="font-description" type="string" value="Sans 13"/>
+        <property name="version" type="string" value="1.11.0"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="show-qr-code" type="bool" value="true"/>
+      </property>
+    </property>
+  </property>
+</channel>

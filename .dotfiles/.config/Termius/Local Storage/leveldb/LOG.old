@@ -1,0 +1,6 @@
+2024/04/26-07:58:41.236 1886 Reusing MANIFEST /home/marcelo/.config/Termius/Local Storage/leveldb/MANIFEST-000001
+2024/04/26-07:58:41.240 1886 Recovering log #10
+2024/04/26-07:58:41.240 1886 Reusing old log /home/marcelo/.config/Termius/Local Storage/leveldb/000010.log 
+2024/04/26-07:59:41.608 191c Level-0 table #14: started
+2024/04/26-07:59:41.609 191c Level-0 table #14: 36849 bytes OK
+2024/04/26-07:59:41.611 191c Delete type=0 #10

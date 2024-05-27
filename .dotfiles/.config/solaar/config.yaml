@@ -1,0 +1,49 @@
+- 1.1.13
+- _NAME: MX Vertical Wireless Mouse
+  _absent: [hi-res-scroll, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode,
+    onboard_profiles, report_rate, report_rate_extended, pointer_speed, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out,
+    backlight_duration_hands_in, backlight_duration_powered, backlight-timed, led_control, led_zone_, rgb_control, rgb_zone_, brightness_control, per-key-lighting,
+    fn-swap, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, gesture2-gestures, gesture2-divert,
+    gesture2-params, sidetone, equalizer, adc_power_management]
+  _battery: 4096
+  _modelId: B020407BC08A
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
+  _serial: 63B095A6
+  _unitId: CCA3F65C
+  _wpid: 407B
+  change-host: null
+  divert-keys: {82: 0, 83: 0, 86: 0, 253: 0}
+  dpi: 1000
+  lowres-scroll-mode: false
+  persistent-remappable-keys: null
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 253: 253}
+- _NAME: Wireless Keyboard K520
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
+  _serial: 56F127D0
+  _wpid: '2011'
+  fn-swap: false
+- _NAME: Signature M650 L Mouse
+  _modelId: B02A00000000
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
+  _serial: AB1C31A7
+  _unitId: AB1C31A7
+  _wpid: B02A
+  divert-keys: {82: 0, 83: 0, 86: 0}
+  dpi: 1000
+  lowres-scroll-mode: false
+  reprogrammable-keys: {82: 82, 83: 83, 86: 86}
+- _NAME: Wireless Keyboard K540/K545
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, report_rate_extended, pointer_speed, dpi, dpi_extended, speed-change, backlight, backlight_level,
+    backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered, backlight-timed, led_control, led_zone_, rgb_control, rgb_zone_,
+    brightness_control, per-key-lighting, reprogrammable-keys, persistent-remappable-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led,
+    multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
+  _battery: 4096
+  _modelId: Wireless Keyboard K540/K545
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
+  _serial: 9F42A892
+  _unitId: 9F42A892
+  _wpid: '4076'
+  disable-keyboard-keys: {1: false, 2: false, 4: false, 8: false, 16: false}
+  divert-keys: {12: 0, 34: 0, 62: 0, 70: 0, 73: 0, 84: 0, 87: 0, 110: 0, 111: 0, 238: 0}
+  fn-swap: false

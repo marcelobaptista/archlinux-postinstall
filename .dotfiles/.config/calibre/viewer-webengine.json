@@ -1,0 +1,79 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 754,
+      "width": 857,
+      "x": 3,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 853,
+      "x": 5,
+      "y": 32
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 853,
+      "x": 5,
+      "y": 32
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAADAAAAAAAAA1sAAALxAAAABQAAACAAAANZAAAC7wAAAAAAAAAACgAAAAAFAAAAIAAAA1kAAALv"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "LG Electronics",
+      "model": "LG ULTRAWIDE",
+      "name": "HDMI-A-0",
+      "serial": "223413",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAADVQAAAtAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 1,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "A. J. Finn"
+        ],
+        "key": "/home/marcelo/e-books/A mulher na janela - A. J. Finn.mobi",
+        "pathtoebook": "/home/marcelo/e-books/A mulher na janela - A. J. Finn.mobi",
+        "timestamp": "2024-05-27T19:44:58.219Z",
+        "title": "A mulher na janela"
+      }
+    ]
+  }
+}

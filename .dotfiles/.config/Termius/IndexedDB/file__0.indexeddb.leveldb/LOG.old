@@ -1,0 +1,6 @@
+2024/04/26-07:58:41.814 1886 Reusing MANIFEST /home/marcelo/.config/Termius/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/04/26-07:58:41.814 1886 Recovering log #3
+2024/04/26-07:58:41.865 1886 Reusing old log /home/marcelo/.config/Termius/IndexedDB/file__0.indexeddb.leveldb/000003.log 
+2024/04/26-07:59:20.050 191c Level-0 table #5: started
+2024/04/26-07:59:20.088 191c Level-0 table #5: 1605851 bytes OK
+2024/04/26-07:59:20.091 191c Delete type=0 #3

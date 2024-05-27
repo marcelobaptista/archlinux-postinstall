@@ -1,0 +1,57 @@
+{
+	"name": "bash-extension-pack",
+	"displayName": "Bash Extension Pack",
+	"description": "Opinionated extension pack to improve Bash usage",
+	"keywords": [
+		"bash",
+		"shell",
+		"shebang",
+		"script"
+	],
+	"version": "2.0.0",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#212121",
+		"theme": "dark"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"formulahendry.code-runner",
+		"foxundermoon.shell-format",
+		"jeff-hykin.better-shellscript-syntax",
+		"mads-hartmann.bash-ide-vscode",
+		"mkhl.direnv",
+		"rogalmic.bash-debug",
+		"rpinski.shebang-snippets",
+		"spmeesseman.vscode-taskexplorer",
+		"timonwong.shellcheck"
+	],
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"private": true,
+	"license": "MIT",
+	"publisher": "pinage404",
+	"homepage": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/tree/main/packages/bash",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/issues"
+	},
+	"__metadata": {
+		"id": "1ee502c4-5d85-4c21-9f41-a9371726880b",
+		"publisherId": "4dc9ef44-41b6-4fb6-af73-1506fbfa493b",
+		"publisherDisplayName": "pinage404",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1716688354534,
+		"pinned": false,
+		"source": "gallery"
+	}
+}

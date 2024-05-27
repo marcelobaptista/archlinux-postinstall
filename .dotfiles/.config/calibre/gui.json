@@ -1,0 +1,192 @@
+{
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAP////8A/////wEAAAABAA=="
+  },
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 785,
+      "width": 1665,
+      "x": 392,
+      "y": 115
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 751,
+      "width": 1661,
+      "x": 394,
+      "y": 147
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 751,
+      "width": 1661,
+      "x": 394,
+      "y": 147
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAGIAAAAcwAACAgAAAODAAABigAAAJMAAAgGAAADgQAAAAAAAAAACgAAAAGKAAAAkwAACAYAAAOB"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "LG Electronics",
+      "model": "LG ULTRAWIDE",
+      "name": "HDMI-A-0",
+      "serial": "223413",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/home/marcelo/Biblioteca do calibre": 2
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23076923076923078,
+      "cover_browser_width": 0.349789283564118,
+      "quick_view_height": 0.256043956043956,
+      "tag_browser_width": 0.2498494882600843
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.29981938591210117,
+      "cover_browser_height": 0.2857142857142857,
+      "quick_view_height": 0.23775510204081632,
+      "tag_browser_width": 0.29981938591210117
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
+  },
+  "quick_start_guide_added": true,
+  "qv_open_at_shutdown": false,
+  "search bar visible": true,
+  "tag browser search box visible": false
+}

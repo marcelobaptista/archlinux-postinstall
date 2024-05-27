@@ -1,0 +1,8 @@
+2024/05/27-16:30:02.198 25a8e Reusing MANIFEST /home/marcelo/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/27-16:30:02.199 25a8e Recovering log #3
+2024/05/27-16:30:02.199 25a8e Reusing old log /home/marcelo/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/000003.log 
+2024/05/27-16:30:02.201 25aa0 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/27-16:30:06.102 25aa0 Level-0 table #5: started
+2024/05/27-16:30:06.103 25aa0 Level-0 table #5: 19127 bytes OK
+2024/05/27-16:30:06.105 25aa0 Delete type=0 #3
+2024/05/27-16:30:06.105 25a8e Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

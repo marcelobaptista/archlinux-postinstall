@@ -1,0 +1,5 @@
+2024/05/27-16:09:18.404 22855 Reusing MANIFEST /home/marcelo/.config/Termius/Local Storage/leveldb/MANIFEST-000001
+2024/05/27-16:09:18.405 22855 Recovering log #13
+2024/05/27-16:09:18.405 22855 Reusing old log /home/marcelo/.config/Termius/Local Storage/leveldb/000013.log 
+2024/05/27-16:21:04.418 2463e Level-0 table #17: started
+2024/05/27-16:21:04.419 2463e Level-0 table #17: 32629 bytes OK

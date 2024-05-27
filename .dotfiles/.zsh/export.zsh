@@ -1,0 +1,16 @@
+export DIRSTACKSIZE=5
+export EDITOR=nano
+export ENABLE_CORRECTION="true"
+export FZF_BASE=/usr/bin/fzf
+export HISTCONTROL=ignoredups
+export HISTFILE=$HOME/.zsh_history
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+export HISTSIZE=4096
+export HISTTIMEFORMAT="%d/%m/%y %T "
+export PATH=$HOME/bin:/usr/local/bin:/opt/scripts:$PATH
+export PATH=$PATH.:
+export SAVEHIST=4096
+export TERM=xterm-256color
+export VISUAL=nano
+export ZSH_CACHE_DIR=$HOME/.zsh/cache
+export ZSH_CUSTOM=/usr/share/oh-my-zsh/custom
