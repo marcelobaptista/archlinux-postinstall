@@ -13,13 +13,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 mkdir -p /etc/firefox/policies
 cp -f ./policies.json /etc/firefox/policies/policies.json
 
-# Remove o beep do sistema
-rmmod pcspkr
-cat <<EOF >>/etc/modprobe.d/blacklist.conf
-blacklist pcspkr
-blacklist snd_pcsp
-EOF
-
 # Configuração Chrony
 cat <<EOF >/etc/chrony.conf
 server 192.168.1.253 iburst
@@ -42,21 +35,10 @@ leapsectz right/UTC
 logdir /var/log/chrony
 EOF
 
-# Configuração do SSH
-cp /etc/ssh/sshd_config{,.backup}
-sed -i -e 's/^#\(PermitRootLogin.*\)/PermitRootLogin no/' \
-    -e 's/^#\(MaxAuthTries.*\)/MaxAuthTries 3/' \
-    -e 's/^#\(LoginGraceTime.*\)/LoginGraceTime 20/' \
-    -e 's/^#\(X11Forwarding.*\)/X11Forwarding no/' \
-    -e 's/^#\(AllowTcpForwarding.*\)/AllowTcpForwarding no/' \
-    -e 's/^#\(AllowAgentForwarding.*\)/AllowAgentForwarding no/' \
-    -e 's/^#\(PermitEmptyPasswords.*\)/PermitEmptyPasswords no/' \
-    -e 's/^#\(PermitTunnel.*\)/PermitTunnel no/'
-    
 # Configuração do Liquidctl
 cat <<EOF >>/etc/systemd/system/liquidcfg.service
 [Unit]
-Description=AIO startup service
+Description=Liquidctl service
 
 [Service]
 Type=oneshot
@@ -95,3 +77,10 @@ cp -rf ./dotfiles/* ~/ && chown -R marcelo:marcelo ~/
 # Configuração do autologin no LightDM
 sed -i 's/#autologin-user=$/autologin-user=marcelo/' /etc/lightdm/lightdm.conf
 groupadd -r autologin && gpasswd -a marcelo autologin
+
+# Configuração do modo kiosk no XFCE
+mkdir -p /etc/xdg/xfce4/kiosk
+cat <<EOF >/etc/xdg/xfce4/kiosk/kioskrc
+[xfce4-session]
+SaveSession=NONE
+EOF
